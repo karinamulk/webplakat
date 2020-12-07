@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+    body{
+      width: 100%;
+      margin: 0 auto;
+      background: black;
+      height: 2489px;
+      display: block;
+      position: relative;
+
+    }
+    body::before{
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      background: url( 'images/1440.jpg');
+      height: 100%;
+      display: block;
+      opacity: .2;
+    }
+    html{
+      position: relative;
+      height: 100%;
+      width: 100%;
+    }
+    .left {
+        width: 24%;
+        height: 68.7%;
+        background: blue;
+        opacity: 50%;
+        position: relative;
+        display: inline-block;
+
+      }
+      .center {
+        width: 52%;
+        height: 68.7%;
+        /* background:black; */
+        opacity: 50%;
+        position: relative;
+        display: inline-block;
+      }
+      .right {
+        width: 24%;
+        height: 68.7%;
+        background: blue;
+        opacity: 50%;
+        position: relative;
+        display: inline-block;
+      }
+      .centertop {
+        width: 100%;
+        height: 52.8%;
+        background:yellow;
+        opacity: 50%;
+        position: relative;
+        display: inline-block;
+
+      }
+      .centercenter {
+        width: 100%;
+        height: 30.5%;
+        background:black;
+        opacity: 50%;
+        position: relative;
+        display: inline-block;
+      }
+      .centerbottom {
+        width: 100%;
+        height: 14.7%;
+        background:red;
+        opacity: 50%;
+        position: relative;
+        display: inline-block;
+      }
+      .roundblock {
+        width: 496px;
+        height: 496px;
+        background: orange;
+        position: relative;
+        vertical-align: top;
+        opacity: .7;
+        margin: 0 auto 0;
+      }
+      .round {
+        width: 421px;
+        height: 421px;
+        border-radius: 50%;
+        background: #A4DDD4;
+        position: relative;
+        margin: 2% auto;
+        box-sizing: border-box;
+      }
+      .inround {
+        width: 326px;
+        height: 326px;
+        border-radius: 50%;
+        background: black;
+        position: relative;
+      }
+      .img1 {
+        position: absolute;
+        top: 23.5%;
+        left: -10%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="left"></div><!--
+--><div class="center">
+      <div class="centertop">
+        <img src="images/top1.svg" alt="" class="img1">
+        <div class="roundblock">
+          <div class="round">
+
+          </div>
+        </div>
+      </div>
+      <div class="centercenter"></div>
+      <div class="centerbottom"></div>
+    </div><!--
+--><div class="right"></div>
+  </body>
+</html>
