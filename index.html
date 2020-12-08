@@ -4,271 +4,476 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="stylesheets/style.css">
-
     <style media="screen">
-      body{
-        width: 100%;
-        margin: 0 auto;
-        background: black;
-        height: 2489px;
-        display: block;
-        position: relative;
+    body{
+      width: 100%;
+      margin: 0 auto;
+      /* background: black; */
+      height: 2499px;
+      display: block;
+      position: relative;
 
-      }
-      body::before{
-        content: "";
-        position: absolute;
-        left: 0;
-        top: 0;
-        right: 0;
-        background: url( 'images/1440.jpg');
-        height: 100%;
-        display: block;
-        opacity: .2;
-      }
-      html{
-        position: relative;
-        height: 100%;
-        width: 100%;
-      }
-      .block {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 68.7%;
-        padding: 0;
-      }
-      .left {
-        width: 24%;
-        height: 100%;
-        background: blue;
-      }
-      .center {
-        width: 52%;
-        height: 100%;
-        /* background: red; */
-      }
-      .right {
-        width: 24%;
-        height: 100%;
-        background: green;
-      }
-      .first {
-        width: 100%;
-        height: 54.8%;
-        background: purple;
-        display: block;
-      }
-      .second {
-        width: 100%;
-        height: 30.5%;
-        background: yellow;
-        display: block;
-      }
-      .third {
-        width: 100%;
-        height: 14.7%;
-        background: black;
-        display: block;
-      }
-      .block2 {
-        width: 100%;
-        height: 31.3%;
-      }
-      .line {
-        width: 100%;
-        height: 24%;
-        background: purple;
-      }
-      .birki {
-        width: 100%;
-        height: 76%;
-        background: red;
-      }
+    }
+    body::before{
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      background: url( 'images/1440.jpg');
+      height: 2489px;
+      display: block;
+      opacity: .2;
+    }
+    html{
+      position: relative;
+      height: 100%;
+      width: 100%;
+    }
+    p {
+      font-family: Akzidenz;
+    }
 
-      .roundblock {
-        width: 496px;
-        height: 496px;
+    .block {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 68.4%;
+      opacity: 50%;
+    }
+    .left {
+      position: relative;
+      width: 24%;
+      height: 100%;
+      background: blue;
+    }
+    .center {
+      position: relative;
+      width: 52%;
+      height: 100%;
+      /* background: red; */
+    }
+    .right {
+      position: relative;
+      width: 24%;
+      height: 100%;
+      background: green;
+    }
+    .first {
+      position: relative;
+      align-items: top;
+      width: 100%;
+      height: 54.8%;
+      background: purple;
+      display: block;
+    }
+    .second {
+      position: relative;
+      width: 100%;
+      height: 30.5%;
+      background: yellow;
+      display: block;
+    }
+    .third {
+      position: relative;
+      width: 100%;
+      height: 14.7%;
+      background: black;
+      display: block;
+    }
+    .block2 {
+      opacity: 50%;
+      width: 100%;
+      height: 31.6%;
+      background: black;
+    }
+    .container1 {
+      width: 1440px;
+      height: 197px;
+      margin-left: 0px;
+      position: relative;
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+    .birki {
+      position: relative;
+      width: 100%;
+      height: 75.3%;
+      background: red;
+    }
+    .meatblock {
+      width: 496px;
+      height: 496px;
+      position: relative;
+      display: inline-block;
+      margin-top: 4.6%;
+      /* margin-left: 17%; */
+      margin-left: calc(50% - 248px);
+    }
+    .biground {
+      width: 421px;
+      height: 421px;
+      border-radius: 50%;
+      background: #A4DDD4;
+      position: relative;
+      margin: auto;
+      margin-top: 7.5%;
+    }
+    .biground2 {
+      width: 79px;
+      height: 79px;
+      border-radius: 50%;
+      background: #A4DDD4;
+      position: absolute;
+    }
+    #br-a {
+      top: -9%;
+      left: calc(50% - 39.5px);
+    }
+    #br-b {
+      top: calc(25% - 39.5px);
+      left: -3%;
+    }
+    #br-c {
+      bottom: calc(25% - 39.5px);
+      left: -3%;
+    }
+    #br-d {
+      bottom: -9%;
+      left: calc(50% - 39.5px);
+    }
+    #br-e {
+      bottom: calc(25% - 39.5px);
+      right: -3%;
+    }
+    #br-f {
+      top: calc(25% - 39.5px);
+      right: -3%;
+    }
+    .blackround {
+      width: 326px;
+      height: 326px;
+      border-radius: 50%;
+      background: black;
+      position: absolute;
+      top: calc(50% - 163px);
+      left: calc(50% - 163px);
+    }
+    .smallround {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: #F28EC0;
+      position: absolute;
+    }
+    #sr-a {
+      top: 9%;
+      left: calc(50% - 15px);
+    }
+    #sr-b {
+      top: 9%;
+      right: 27%;
+    }
+    #sr-c {
+      top: 28%;
+      left: 9%;
+    }
+    #sr-d {
+      top: 28%;
+      left: calc(50% - 15px);
+    }
+    #sr-e {
+      top: 28%;
+      right: 9%;
+    }
+    .block img {
+      position: absolute;
+      display: inline-block;
+    }
+    .top1 {
+      bottom: 7px;
+      left: -75px;
+    }
 
-        position: absolute;
-
-        margin-left: 9%;
-        margin-top: 2.4%;
-      }
-      .round {
-        width: 421px;
-        height: 421px;
-        border-radius: 50%;
-        background: #A4DDD4;
-        position: relative;
-
-        margin: 7.5% auto;
-        padding: 9.5%;
-        box-sizing: border-box;
-      }
-      .inround {
-        width: 326px;
-        height: 326px;
-        border-radius: 50%;
-        background: black;
-        position: relative;
-      }
-      .smallround {
-        width: 79px;
-        height: 79px;
-        border-radius: 50%;
-        background: #A4DDD4;
-        position: absolute;
-      }
-      .a {
-        left: 42.5%;
-        top: 0%;
-      }
-      .b {
-        left: 5%;
-        top: 21%;
-      }
-      .c {
-        left: 5%;
-        top: 63%;
-      }
-      .d {
-        left: 79%;
-        top: 21%;
-      }
-      .e {
-        left: 79%;
-        top: 63%;
-      }
-      .f {
-        left: 42.5%;
-        top: 84%;
-      }
-      .point {
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        background: #F28EC0;
-        position: absolute;
-      }
-      .a1 {
-        left: 9%;
-        top: 28%;
-      }
-      .a2 {
-        left: 45.5%;
-        top: 9.5%;
-      }
-      .a3 {
-        left: 45.5%;
-        top: 28%;
-      }
-      .a4 {
-        left: 64.5%;
-        top: 9.5%;
-      }
-      .a5 {
-        left: 82.5%;
-        top: 28%;
-      }
-      img {
-        position: absolute;
-      }
-      .top1 {
-        left: 18.7%;
-        top: 9.6%;
-      }
-      .top2 {
-        left: 29.5%;
-        top: 6%;
-      }
-      .logo {
-        margin-left: 14px;
-        margin-top: 5px;
-      }
-      .birka1 {
-        width: 200px;
-        height: 400px;
-        background: #F28EC0;
-        border-radius: 22px;
-        margin-top: 10%;
-      }
-      .link1 {
-        width: 100px;
-        height: 100px;
-        background: yellow;
-        display: inline-block;
-      }
-      .link2 {
-        width: 100px;
-        height: 100px;
-        background: blue;
-        display: inline-block;
-
-      }
-      a{
-        width: 100px;
-        height: 100px;
-        font-family: Akzidenz;
-        font-size: 70px;
-        margin: auto;
-      }
+    .top2 {
+      bottom: 7px;
+      left: 79px;
+    }
+    .top3 {
+      bottom: 7px;
+      left: 255px;
+    }
+    .top4 {
+      bottom: 7px;
+      right: 100px;
+    }
+    .top5 {
+      bottom: 7px;
+      right: -107px;
+    }
+    .logo {
+      left: 14px;
+      top: 5px;
+    }
+    .bottom1 {
+      top: 10px;
+      left: -13px;
+    }
+    .bottom2 {
+      top: 9px;
+      right: -50px;
+    }
+    #rtop-a {
+      left: 15px;
+      top: 359px;
+    }
+    #rtop-b {
+      left: 223px;
+      bottom: 397px;
+    }
+    #rtop-c {
+      left: 256px;
+      bottom: 218px;
+    }
+    #rtop-d {
+      right: 283px;
+      bottom: 216px;
+    }
+    #rtop-e {
+      right: 193px;
+      bottom: 156px;
+    }
+    #rtop-f {
+      right: 102px;
+      bottom: 386px;
+    }
+    #rbottom-a {
+      bottom: 2px;
+      left: -13px;
+    }
+    #rbottom-b {
+      bottom: 90px;
+      left: 104px;
+    }
+    #rbottom-c {
+      top: 8px;
+      right: 14px;
+    }
+    #rbottom-d {
+      bottom: 1px;
+      right: -49px;
+    }
+    .left1 {
+      left: 30px;
+      bottom: 30px;
+    }
+    .left2 {
+      right: -45px;
+      bottom: 30px;
+    }
+    #rleft-a {
+      top: 810px;
+      left:30px;
+    }
+    #rleft-b {
+      bottom: 272px;
+      left:30px;
+    }
+    #rleft-c {
+      bottom: 1px;
+      left:30px;
+    }
+    #rleft-d {
+      bottom: 1px;
+      left:90px;
+    }
+    #rleft-e {
+      bottom: 750px;
+      left:181px;
+    }
+    #rleft-f {
+      bottom: 691px;
+      right: 45px
+    }
+    #rleft-g {
+      bottom: 211px;
+      right: 75px
+    }
+    #rleft-h {
+      bottom: 360px;
+      right: 15px
+    }
+    .right1 {
+      bottom: 30px;
+      right: 30px;
+    }
+    #rright-a {
+      bottom: 690px;
+      left: 16px;
+    }
+    #rright-b {
+      top: 630px;
+      left: 46px;
+    }
+    #rright-c {
+      bottom: 600px;
+      left: 106px;
+    }
+    #rright-d {
+      bottom: 329px;
+      right: 120px;
+    }
+    #rright-e {
+      top: 840px;
+      right: 30px;
+    }
+    #rright-f {
+      bottom: 481px;
+      right: 30px;
+    }
+    #rright-g {
+      bottom: 1px;
+      right: 30px;
+    }
+    .block p {
+      font-size: 24px;
+      line-height: 30.6px;
+      position: absolute;
+      top: 38px;
+      color: #A4DDD4;
+    }
+    #title1 {
+      left: 60px;
+      width: 240px;
+      height: 141px;
+    }
+    #title2 {
+      right: 60px;
+      width: 265px;
+      height: 65px;
+    }
+    .row {
+      width: 3300px;
+      height: 197px;
+      display: block;
+      position: absolute;
+      box-sizing: border-box;
+      animation: move 10s linear infinite;
+    }
+     .row img {
+      position: relative;
+      display: inline-block;
+      margin: 8px 8px 8px 0;
+    }
+    .line {
+      width: 30px;
+      border-radius: 15px;
+      height: 197px;
+      position: relative;
+      display: inline-block;
+      margin-right: 8px;
+      background: #F28EC0;
+    }
+    /* @keyframes move {
+      0% {left: 0px;}
+      100% {left: -1840px;}
+    } */
     </style>
   </head>
   <body>
     <div class="block">
       <div class="left">
+        <p id="title1">магазин мозгов вашей мечты на Ленина, 25</p>
+        <img src="images/left1.svg" alt="" class="left1">
+        <img src="images/left2.svg" alt="" class="left2">
+        <div class="smallround" id="rleft-a"></div>
+        <div class="smallround" id="rleft-b"></div>
+        <div class="smallround" id="rleft-c"></div>
+        <div class="smallround" id="rleft-d"></div>
+        <div class="smallround" id="rleft-e"></div>
+        <div class="smallround" id="rleft-f"></div>
+        <div class="smallround" id="rleft-g"></div>
+        <div class="smallround" id="rleft-h"></div>
 
       </div>
       <div class="center">
         <div class="first">
+          <div class="meatblock">
+            <div class="biground">
+              <div class="biground2" id="br-a"></div>
+              <div class="biground2" id="br-b"></div>
+              <div class="biground2" id="br-c"></div>
+              <div class="biground2" id="br-d"></div>
+              <div class="biground2" id="br-e"></div>
+              <div class="biground2" id="br-f"></div>
+            </div>
+            <div class="blackround">
+              <div class="smallround" id="sr-a"></div>
+              <div class="smallround" id="sr-b"></div>
+              <div class="smallround" id="sr-c"></div>
+              <div class="smallround" id="sr-d"></div>
+              <div class="smallround" id="sr-e"></div>
+            </div>
+          </div>
           <img src="images/top1.svg" alt="" class="top1">
           <img src="images/top2.svg" alt="" class="top2">
-          <div class="roundblock">
-            <div class="round">
-              <div class="inround">
-                <div class="point a1"></div>
-                <div class="point a2"></div>
-                <div class="point a3"></div>
-                <div class="point a4"></div>
-                <div class="point a5"></div>
-              </div>
-            </div>
-            <div class="smallround a"></div>
-            <div class="smallround b"></div>
-            <div class="smallround c"></div>
-            <div class="smallround d"></div>
-            <div class="smallround e"></div>
-            <div class="smallround f"></div>
-          </div>
+          <img src="images/top3.svg" alt="" class="top3">
+          <img src="images/top4.svg" alt="" class="top4">
+          <img src="images/top5.svg" alt="" class="top5">
+          <div class="smallround" id="rtop-a"></div>
+          <div class="smallround" id="rtop-b"></div>
+          <div class="smallround" id="rtop-c"></div>
+          <div class="smallround" id="rtop-d"></div>
+          <div class="smallround" id="rtop-e"></div>
+          <div class="smallround" id="rtop-f"></div>
+
         </div>
         <div class="second">
           <img src="images/logo.svg" alt="" class="logo">
         </div>
         <div class="third">
-
+          <img src="images/bottom1.svg" alt="" class="bottom1">
+          <img src="images/bottom2.svg" alt="" class="bottom2">
+          <div class="smallround" id="rbottom-a"></div>
+          <div class="smallround" id="rbottom-b"></div>
+          <div class="smallround" id="rbottom-c"></div>
+          <div class="smallround" id="rbottom-d"></div>
         </div>
       </div>
       <div class="right">
+        <p id="title2">8(495)–242–45–45 kupimozgi.com</p>
+        <img src="images/right1.svg" alt="" class="right1">
+        <div class="smallround" id="rright-a"></div>
+        <div class="smallround" id="rright-b"></div>
+        <div class="smallround" id="rright-c"></div>
+        <div class="smallround" id="rright-d"></div>
+        <div class="smallround" id="rright-e"></div>
+        <div class="smallround" id="rright-f"></div>
+        <div class="smallround" id="rright-g"></div>
 
       </div>
     </div>
     <div class="block2">
-      <div class="line">
-
-      </div>
-      <div class="birki">
-        <div class="birka1 b1">
-          <img src="images/mozg1.svg" alt="" class="birka1pic">
-          <p class="birka1text">Парень не понимает, зачем тебе второе платье?</p>
+      <div class="container1">
+        <div class="row">
+          <img src="images/newlife.svg" alt="">
+          <div class="line"></div>
+          <img src="images/alternative.svg" alt="">
+          <div class="line"></div>
+          <img src="images/view.svg" alt="">
+          <div class="line"></div>
+          <img src="images/dream.svg" alt="">
+          <div class="line"></div>
+          <img src="images/newlife.svg" alt="">
+          <div class="line"></div>
+          <img src="images/alternative.svg" alt="">
+          <div class="line"></div>
+          <img src="images/view.svg" alt="">
         </div>
       </div>
+      <div class="birki">
+      </div>
     </div>
-<div class="link1">
-  <a href="second.html">2</a>
-</div>
-<div class="link2">
-  <a href="third.html">3</a>
-</div>
+
   </body>
 </html>
