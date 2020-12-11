@@ -168,19 +168,19 @@
 #b10:hover, #b11:hover, #b13:hover {
   animation-play-state: paused;
 }
-#b1:hover #b1-2 {
+#b1:hover ~ #b1-2 {
   animation-play-state: paused;
 }
-#b2:hover #b2-2 {
+#b2:hover ~ #b2-2 {
   animation-play-state: paused;
 }
-#b3:hover #b3-2 {
+#b3:hover ~ #b3-2 {
   animation-play-state: paused;
 }
-#b4:hover #b4-2 {
+#b4:hover ~ #b4-2 {
   animation-play-state: paused;
 }
-#b5:hover #b5-2 {
+#b5:hover ~ #b5-2 {
   animation-play-state: paused;
 }
 .body1 {
