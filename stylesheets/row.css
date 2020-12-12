@@ -12,7 +12,7 @@
   display: block;
   position: absolute;
   box-sizing: border-box;
-  animation: move 8s linear infinite;
+  /* animation: move 8s linear infinite; */
 }
  .row img {
   position: relative;
