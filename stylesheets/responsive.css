@@ -1,0 +1,51 @@
+@media only screen and (min-width:1680px) {
+  body::before{
+    background: url( 'images/1680.jpg');
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-device-width: 1679px) {
+
+}
+
+@media only screen and (min-width: 1366px) and (max-device-width: 1439px) {
+  body::before{
+    background: url( 'images/1366.jpg');
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-device-width: 1365px) {
+/* Desktop1280 */
+}
+
+@media only screen and (min-width: 1025px) and (max-device-width: 1279px) {
+/* Desktoptoipad */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+/* iPad */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+/* iPad Portrait */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+/* iPad Landscape */
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 767px) {
+/* ipadtoiphone */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+/* iPhone */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+/* iPhone Portrait */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+/* iPhone Landscape */
+}
