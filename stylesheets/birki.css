@@ -4,6 +4,7 @@
   height: 75.09%;
   box-sizing: border-box;
   overflow: hidden;
+
 }
 
 .row2 {
@@ -437,8 +438,8 @@
   bottom: 3.5%;
 }
 .birki p {
-  font-size:112%;
-  line-height: 130%;
+  font-size: 18px;
+  line-height: 23px;
   position: absolute;
   color: black;
 }
