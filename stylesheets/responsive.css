@@ -1,39 +1,98 @@
-@media only screen and (min-width:1680px) {
-  body .block p {font-size: 50px;}
+@media all and (min-device-width: 1025px) {
+  .first .al-top1, .first .al-top2, .first .al-top3, .first .al-top4, .first .al-top5, .third .al-bottom1, .third .al-bottom2, .left .al-left, .right .al-right {display: none;}
+}
+@media all and (min-device-width: 300px) and (max-device-width: 768px) {
+  .first .al-top1, .first .al-top2, .first .al-top3, .first .al-top4, .first .al-top5, .third .al-bottom1, .third .al-bottom2, .left .al-left, .right .al-right {display: none;}
 }
 
-@media only screen and (min-width: 1440px) and (max-device-width: 1679px) {
 
+
+@media only screen and (min-width:1680px) {
+  body .block p {font-size: 28px; line-height: 36px;}
+  body .line {border-radius: 17px;}
+  body .birki p {font-size: 21px; line-height: 27px;}
 }
 
 @media only screen and (min-width: 1366px) and (max-device-width: 1439px) {
-
+  body .block p {font-size: 22px; line-height: 28px;}
+  body .line {border-radius: 14px;}
+  body .birki p {font-size: 16px; line-height: 20px;}
 }
 
 @media only screen and (min-width: 1280px) and (max-device-width: 1365px) {
-
+  body .block p {font-size: 22px; line-height: 28px;}
+  body .birki p {font-size: 16px; line-height: 20px;}
 }
 
-@media only screen and (min-width: 1025px) and (max-device-width: 1279px) {
-
-
+@media only screen and (min-width: 1025px) and (max-device-width: 1169px) {
+  body .block p {font-size: 20px; line-height: 26px;}
+  body .birki p {font-size: 14px; line-height: 18px;}
+}
+@media only screen and (min-width: 1170px) and (max-device-width: 1279px) {
+  body .birki p {font-size: 16px; line-height: 20px;}
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-div .center {width: 90%;}
-body .block p {font-size: 16px;}
+  body .block p {font-size: 20px; line-height: 26px;}
+  body .birki p {font-size: 16px; line-height: 20px;}
+  body .sootnosheniye {padding-bottom: 220.06%;}
+  body .block {height: 67.8%;}
+  body .block2 {height: 32.2%;}
+  div .center {width: 71.5%;}
+  div .left {width: 14.25%;}
+  div .right {width: 14.25%;}
+  div .first {height: 51.5%;}
+  div .second {height: 33.57%;}
+  div .third {height: 14.93%;}
+  .container1 .row { width: 295%;}
+  .birki .row2 { width: 449%; }
+
+  .first .meatblock {height: 61.53%; margin-top: 6.5%; margin-left: 16.5%;}
+  .left .left1, .left .left2, .right .right1, .first .top1, .first .top2,.first .top3,.first .top4, .first .top5, .third .bottom1, .third .bottom2, .first #rtop-e, .first #rtop-f  {display: none;}
+  .left #rleft-b, .left #rleft-d, .left #rleft-e, .left #rleft-f, .left #rleft-g, .left #rleft-h, .right #rright-b, .right #rright-c, .right #rright-d, .right #rright-f {display: none;}
+  .first .smallround-centertop {height: 3.73%;}
+  .third .smallround-centerbottom {height: 12.87%;}
+  .left .smallround-left {width: 20%; height: 1.9%;}
+  .right .smallround-left {width: 20%; height: 1.9%;}
+  .first #rtop-a {left: 1.7%; bottom: 49.27%; top: auto;}
+  .first #rtop-b {left: 1.7%; bottom: 23.8%; top: auto;}
+  .first #rtop-c {left: 29.77%; bottom: 31.66%; top: auto;}
+  .first #rtop-d {right: 14.07%; bottom: 30.2%; top: auto;}
+  .third #rbottom-a {left: 22.7%; bottom: 0%; top: auto;}
+  .third #rbottom-b {right: 46%; left: auto; top: 11.4%;}
+  .third #rbottom-c {right: 2.7%; top:11.4%; }
+  .third #rbottom-d { right: -5.7%;}
+  .left #rleft-a {left: 15%; bottom: 37.9%; top: auto;}
+  .left #rleft-c {left: 15%; bottom: 11.2%;}
+  .right #rright-g { right: 15%;}
+  .right #rright-e { right: 15%; top: 44.8%;}
+  .right #rright-a { left: 24%; bottom: 41.8%;}
+  .row2 #b1 {margin-left: 4%; height: 166.35%;}
+  .row2 #b2 {margin-left: -5.8%; height: 157.24%}
+  .row2 #b3 {height: 176.46%;}
+  .row2 #b4 {height: 122.16%;}
+  .row2 #b5 {height: 164.32%;}
+  .row2 #b6 {height: 111.03%;}
+  .row2 #b7 {height: 176.46%;}
+  .row2 #b8 {height: 152.85%;}
+  .row2 #b9 {height: 137.34%;}
+  .row2 #b10 {height: 176.46%;}
+  .row2 #b11 {height: 152.85%;}
+  .row2 #b12 {height: 178.15%;}
+  .row2 #b13 {height: 169.04%;}
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-/* iPad Portrait */
-}
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-/* iPad Landscape */
+
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+body .sootnosheniye {padding-bottom: 233.85%}
+.left .left1, .left .left2, .right .right1, .first .top1, .first .top2,.first .top3,.first .top4, .first .top5, .third .bottom1, .third .bottom2 {display: none;}
 }
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 767px) {
-/* ipadtoiphone */
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
