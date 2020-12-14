@@ -5,312 +5,7 @@
     <title></title>
     <link rel="stylesheet" href="stylesheets/style.css">
     <style media="screen">
-    body{
-      width: 100%;
-      margin: 0;
-      background: black;
-      height: 100%;
-      display: block;
-      position: relative;
-
-    }
-    body::before{
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      background: url( 'images/1440.jpg');
-      width: 100%;
-      height: 100%;
-      display: block;
-      opacity: .3;
-    }
-    html{
-      position: relative;
-      height: 100%;
-      width: 100%;
-    }
-    p {
-      font-family: Akzidenz;
-    }
-    .wrapper {
-      position: relative;
-      width: 100%;
-      /* background: black; */
-    }
-    .sootnosheniye {
-      position: relative;
-      padding-bottom: 173.54%;
-      /* background: red; */
-
-    }
-    .content {
-      position: absolute;
-      top: 0; bottom: 0; left: 0; right: 0;
-      padding: 0;
-      /* background: yellow; */
-    }
-    .block {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      height: 68.4%;
-      /* opacity: 50%; */
-    }
-    .left {
-      position: relative;
-      width: 24%;
-      height: 100%;
-      /* background: blue; */
-    }
-    .center {
-      position: relative;
-      width: 52%;
-      height: 100%;
-      /* background: red; */
-    }
-    .right {
-      position: relative;
-      width: 24%;
-      height: 100%;
-      /* background: green; */
-    }
-    .first {
-      position: relative;
-      align-items: top;
-      width: 100%;
-      height: 54.8%;
-      /* background: purple; */
-      display: block;
-    }
-    .second {
-      position: relative;
-      width: 100%;
-      height: 30.5%;
-      background: yellow;
-      display: block;
-    }
-    .third {
-      position: relative;
-      width: 100%;
-      height: 14.7%;
-      background: black;
-      display: block;
-    }
-    .block2 {
-      opacity: 50%;
-      width: 100%;
-      height:  31.6%;
-      background: black;
-    }
-    .block img {
-      position: absolute;
-      display: inline-block;
-    }
-    .smallround-centertop {
-      width: 4%;
-      height: 3.2%;
-      border-radius: 50%;
-      background: #F28EC0;
-      position: absolute;
-      transition: all .3s;
-    }
-    .smallround-centerbottom {
-      width: 4%;
-      height: 11.94%;
-      border-radius: 50%;
-      background: #F28EC0;
-      position: absolute;
-      transition: all .3s;
-    }
-    .smallround-left {
-      width: 8.68%;
-      height: 1.76%;
-      border-radius: 50%;
-      background: #F28EC0;
-      position: absolute;
-      transition: all .3s;
-    }
-    /* .smallround:hover {
-      background: #F8E436;
-      transition: all.1s;
-    } */
-    .top1 {
-      bottom: 0.75%;
-      left: -10%;
-      width: 46.5%;
-    }
-
-    .top2 {
-      bottom: 0.75%;
-      left: 10.55%;
-      width: 33.25%;
-
-    }
-    .top3 {
-      bottom: 0.75%;
-      left: 34%;
-      width: 18.16%;
-    }
-    .top4 {
-      bottom: 0.75%;
-      right: 13.35%;
-      width: 44.47%;
-
-    }
-    .top5 {
-      bottom: 0.75%;
-      right: -14.29%;
-      width: 49.95%;
-    }
-    .logo {
-      left: 1.87%;
-      top: 0.96%;
-      width: 96.42%;
-    }
-    .bottom1 {
-      top: 3.98%;
-      left: -1.74%;
-      width: 31.65%;
-    }
-    .bottom2 {
-      top: 3.58%;
-      right: -6.68%;
-      width: 72.65%;
-    }
-    #rtop-a {
-      left: 2%;
-      top: 38.17%;
-    }
-    #rtop-b {
-      left: 30%;
-      bottom: 42.38%;
-    }
-    #rtop-c {
-      left: 34%;
-      bottom: 23.27%;
-    }
-    #rtop-d {
-      right: 37.79%;
-      bottom: 23%;
-    }
-    #rtop-e {
-      right: 25.77%;
-      bottom: 16.65%;
-    }
-    #rtop-f {
-      right: 13.62%;
-      bottom: 41.2%;
-    }
-    #rbottom-a {
-      bottom: 0.8%;
-      left: -1.74%;
-    }
-    #rbottom-b {
-      bottom: 35.82%;
-      left: 13.89%;
-    }
-    #rbottom-c {
-      top: 3.18%;
-      right: 1.9%;
-    }
-    #rbottom-d {
-      bottom: 0.4%;
-      right: -6.54%;
-    }
-    .left1 {
-      left: 8.68%;
-      bottom: 1.76%;
-      width: 91.73%;
-    }
-    .left2 {
-      right: -13%;
-      bottom: 1.76%;
-      width: 87.1%;
-    }
-    #rleft-a {
-      top: 47.39%;
-      left: 8.68%;
-    }
-    #rleft-b {
-      bottom: 15.91%;
-      left: 8.68%;
-    }
-    #rleft-c {
-      bottom: 0.06%;
-      left: 8.68%;
-    }
-    #rleft-d {
-      bottom: 0.06%;
-      left: 26%;
-    }
-    #rleft-e {
-      bottom: 43.88%;
-      left: 52.37%;
-    }
-    #rleft-f {
-      bottom: 40.43%;
-      right: 13%;
-    }
-    #rleft-g {
-      bottom: 12.34%;
-      right: 21.7%;
-    }
-    #rleft-h {
-      bottom: 21.1%;
-      right: 4.34%;
-    }
-    .right1 {
-      bottom: 1.76%;
-      right: 8.68%;
-      width: 104.46%;
-    }
-    #rright-a {
-      bottom: 40.37%;
-      left: 4.63%;
-    }
-    #rright-b {
-      top: 36.86%;
-      left: 13.31%;
-    }
-    #rright-c {
-      bottom: 35.1%;
-      left: 30.67%;
-    }
-    #rright-d {
-      bottom: 19.25%;
-      right: 34.72%;
-    }
-    #rright-e {
-      top: 49.14%;
-      right: 8.68%;
-    }
-    #rright-f {
-      bottom: 28.14%;
-      right: 8.68%;
-    }
-    #rright-g {
-      bottom: 0.06%;
-      right: 8.68%;
-    }
-    .block p {
-      font-size: 24px;
-      line-height: 30.6px;
-      position: absolute;
-      top: 2.22%;
-      color: #A4DDD4;
-    }
-    #title1 {
-      left: 17.36%;
-      width: 69.45%;
-      height: 8.25%;
-    }
-    #title2 {
-      right: 17.36%;
-      width: 76.68%;
-      height: 3.8%;
-    }
+      
     </style>
   </head>
   <body>
@@ -319,9 +14,10 @@
         <div class="content">
           <div class="block">
             <div class="left">
-              <p id="title1">магазин мозгов вашей мечты на Ленина, 25</p>
+              <p id="title1">магазин мозгов вашей мечты на&nbspЛенина,&nbsp25</p>
               <img src="images/left1.svg" alt="" class="left1">
               <img src="images/left2.svg" alt="" class="left2">
+              <img src="images/al-left.svg" alt="" class="al-left">
               <div class="smallround-left" id="rleft-a"></div>
               <div class="smallround-left" id="rleft-b"></div>
               <div class="smallround-left" id="rleft-c"></div>
@@ -356,6 +52,11 @@
                 <img src="images/top3.svg" alt="" class="top3">
                 <img src="images/top4.svg" alt="" class="top4">
                 <img src="images/top5.svg" alt="" class="top5">
+                <img src="images/al-top1.svg" alt="" class="al-top1">
+                <img src="images/al-top2.svg" alt="" class="al-top2">
+                <img src="images/al-top3.svg" alt="" class="al-top3">
+                <img src="images/al-top4.svg" alt="" class="al-top4">
+                <img src="images/al-top5.svg" alt="" class="al-top5">
                 <div class="smallround-centertop" id="rtop-a"></div>
                 <div class="smallround-centertop" id="rtop-b"></div>
                 <div class="smallround-centertop" id="rtop-c"></div>
@@ -370,6 +71,8 @@
               <div class="third">
                 <img src="images/bottom1.svg" alt="" class="bottom1">
                 <img src="images/bottom2.svg" alt="" class="bottom2">
+                <img src="images/al-bottom1.svg" alt="" class="al-bottom1">
+                <img src="images/al-bottom2.svg" alt="" class="al-bottom2">
                 <div class="smallround-centerbottom" id="rbottom-a"></div>
                 <div class="smallround-centerbottom" id="rbottom-b"></div>
                 <div class="smallround-centerbottom" id="rbottom-c"></div>
@@ -379,6 +82,7 @@
             <div class="right">
               <p id="title2">8(495)–242–45–45 kupimozgi.com</p>
               <img src="images/right1.svg" alt="" class="right1">
+              <img src="images/al-right.svg" alt="" class="al-right">
               <div class="smallround-left" id="rright-a"></div>
               <div class="smallround-left" id="rright-b"></div>
               <div class="smallround-left" id="rright-c"></div>
@@ -423,7 +127,7 @@
                   <div class="body1 bodyred" id="bod2">
                     <div class="hole1"></div>
                     <img src="images/mozg1.svg" alt="" class="pic1">
-                    <p id="text1">Парень не&nbspпонимает, зачем тебе второе платье?</p>
+                    <p id="text1">Парень не&nbspпонимает, зачем&nbspтебе второе&nbspплатье?</p>
                   </div>
                   <div class="thread thread1 bodyred" id="th2">
 
@@ -433,7 +137,7 @@
                   <div class="body1 bodyblue" id="bod3">
                     <div class="hole1"></div>
                     <img src="images/birka3.svg" alt="" class="pic3">
-                    <p id="text2">Бесит сосед, который шумит ночью?</p>
+                    <p id="text2">Бесит сосед, который&nbspшумит ночью?</p>
                   </div>
                   <div class="thread thread1 bodyblue" id="th3">
 
@@ -453,7 +157,7 @@
                   <div class="body1 bodyblue" id="bod5">
                     <div class="hole1"></div>
                     <img src="images/birka5.svg" alt="" class="pic5">
-                    <p id="text3">Не получается закрыть сессию на отлично?</p>
+                    <p id="text3">Не&nbspполучается закрыть сессию на&nbspотлично?</p>
                   </div>
                   <div class="thread thread1 bodyblue" id="th5">
 
@@ -506,7 +210,7 @@
                   <div class="body1 bodyblue" id="bod10">
                     <div class="hole1"></div>
                     <img src="images/mozg2.svg" alt="" class="pic10">
-                    <p id="text6">С мозгами Эйнштейна ты сдашь физику на&nbspпятёрку</p>
+                    <p id="text6">С&nbspмозгами Эйнштейна ты сдашь физику на&nbspпятёрку</p>
                   </div>
                   <div class="thread thread1 bodyblue" id="th10">
 
@@ -555,7 +259,7 @@
                   <div class="body1 bodyred" id="bod2">
                     <div class="hole1"></div>
                     <img src="images/mozg1.svg" alt="" class="pic1">
-                    <p id="text1">Парень не&nbspпонимает, зачем тебе второе платье?</p>
+                    <p id="text1">Парень не&nbspпонимает, зачем&nbspтебе второе платье?</p>
                   </div>
                   <div class="thread thread1 bodyred" id="th2">
 
@@ -565,7 +269,7 @@
                   <div class="body1 bodyblue" id="bod3">
                     <div class="hole1"></div>
                     <img src="images/birka3.svg" alt="" class="pic3">
-                    <p id="text2">Бесит сосед, который шумит ночью?</p>
+                    <p id="text2">Бесит сосед, который&nbspшумит ночью?</p>
                   </div>
                   <div class="thread thread1 bodyblue" id="th3">
 
@@ -585,7 +289,7 @@
                   <div class="body1 bodyblue" id="bod5">
                     <div class="hole1"></div>
                     <img src="images/birka5.svg" alt="" class="pic5">
-                    <p id="text3">Не получается закрыть сессию на отлично?</p>
+                    <p id="text3">Не&nbspполучается закрыть сессию на&nbspотлично?</p>
                   </div>
                   <div class="thread thread1 bodyblue" id="th5">
 
