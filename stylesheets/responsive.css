@@ -87,7 +87,7 @@
 
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-body .sootnosheniye {padding-bottom: 233.85%}
+/* body .sootnosheniye {padding-bottom: 233.85%} */
 .left .left1, .left .left2, .right .right1, .first .top1, .first .top2,.first .top3,.first .top4, .first .top5, .third .bottom1, .third .bottom2 {display: none;}
 }
 
