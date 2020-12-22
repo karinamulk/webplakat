@@ -45,3 +45,7 @@
   0% {left: 0px;}
   100% {left: -127.78%;}
 }
+@keyframes move-ipadl {
+  0% {left: 0px;}
+  100% {left: -164.7%;}
+}
