@@ -6,7 +6,6 @@
   overflow: hidden;
 
 }
-
 .row2 {
   width: 361.11%;
   height: 100%;
@@ -141,7 +140,7 @@
   animation-play-state: running;
   animation-delay: 1.8s;
 }
-@keyframes touch3 {
+/* @keyframes touch3 {
   0% {transform: rotate(-8deg);}
   2% {transform: rotate(-8deg);}
   50% {transform: rotate(6deg);}
@@ -158,7 +157,7 @@
   2% {transform: rotate(-12deg);}
   50% {transform: rotate(10deg);}
   100% {transform: rotate(-12deg);}
-}
+} */
 #b1:hover, #b2:hover, #b3:hover, #b4:hover, #b5:hover, #b6:hover, #b7:hover, #b8:hover, #b9:hover {
   animation-play-state: paused;
 }
@@ -497,8 +496,4 @@
 @keyframes birkimove {
   0% {left: 0px;}
   100% {left: -254.79%;}
-}
-@keyframes birkimove-ipadl {
-  0% {left: 0px;}
-  100% {left: -312%;}
 }
