@@ -17,11 +17,13 @@
  .row img {
   position: relative;
   display: inline-block;
+  /* height: 92%; */
   margin: 0.243% 0.243% 0.243% 0;
 
 }
 #newlife {
   width: 8.82%;
+
 }
 #alternative {
   width: 21.85%;
@@ -44,8 +46,4 @@
 @keyframes move {
   0% {left: 0px;}
   100% {left: -127.78%;}
-}
-@keyframes move-ipadl {
-  0% {left: 0px;}
-  100% {left: -164.7%;}
 }
