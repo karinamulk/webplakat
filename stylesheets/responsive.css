@@ -14,12 +14,85 @@
 @media all and (min-width: 769px) {
   .first .ap-top1, .first .ap-top2, .first .ap-top3, .first .ap-top4, .first .ap-top5, .third .ap-bottom1, .third .ap-bottom2, .left .ap-left, .right .ap-right {display: none;}
 }
-@media only screen and (min-width:1680px) {
+@media all and (min-width: 1680px)  {
+  .left .left1, .left .left2, .right .right1, .first .top1, .first .top2,.first .top3,.first .top4, .first .top5  {display: none;}
+}
+@media all and (min-width: 1025px) and (max-width: 1439px) {
+  .left .left1, .left .left2, .right .right1 {display: none;}
+}
+@media all and (min-width: 320px) and (max-width: 1679px) {
+  .left .left1-1680, .left .left2-1680,.right .right1-1680, .right .right2-1680, .first .top1-1680,.first .top2-1680,.first .top3-1680,.first .top4-1680,.first .top5-1680, .right #rright-h,.right #rright-i, .right #rright-j {display: none;}
+}
+@media all and (min-width: 320px) and (max-width: 1365px) {
+.left .left1-1366, .left .left2-1366, .right .right-1366 {display: none;}
+}
+@media all and (min-width: 1440px)  {
+.left .left1-1366, .left .left2-1366, .right .right-1366 {display: none;}
+}
+@media all and (min-width: 1366px)  {
+.left .left-1280, .right .right-1280 {display: none;}
+}
+@media all and (max-width: 1024px) {
+.left .left-1280, .right .right-1280 {display: none;}
+}
+@media only screen and (min-width: 1680px)  {
   .block #title1, #title2 {font-size: 28px; line-height: 36px;top: 1.7%;}
   .row.line {border-radius: 17px;}
   .birki p {font-size: 21px; line-height: 27px;}
   .block3 p {font-size: 21px; line-height: 27px;}
   .block3 a {font-size: 21px; line-height: 27px;}
+  body .sootnosheniye {padding-bottom: 166.73%;}
+  body .block {height: 65.91%;}
+  body .block2 {height: 32.63%;}
+  body .block3 {height: 1.46%;}
+  div .center {width: 43.82%;}
+  div .left {width: 28.09%;}
+  div .right {width: 28.09%;}
+  div .first {height: 58.38%;}
+  div .second {height: 28.22%;}
+  div .third {height: 13.4%;}
+  .first .meatblock { height: 45.21%; margin-top: 6.6%; margin-left: 16%; }
+  .bottom1 {left: -3.74%;}
+  .bottom2 {right: -4.68%;}
+  .second .logo {left: 0%; top:1.96%;}
+  .first .smallround-centertop {height: 2.74%; width: 4%;}
+  .third .smallround-centerbottom {height: 12.93%;width: 4%;}
+  .left .smallround-left {width: 6.25%; height: 1.6%;}
+  .right .smallround-left {width: 6.25%; height: 1.6%;}
+  .first #rtop-a {left: 0%; top: 34%;}
+  .first #rtop-b {left: 28%; bottom: 49%;}
+  .first #rtop-c {left: 32%; bottom: 17.47%;}
+  .first #rtop-d {right: 39.79%; bottom: 32.8%;}
+  .first #rtop-e {right: 27.77%; bottom: 27.4%;}
+  .first #rtop-f {right: 15.62%; bottom: 48.4%;}
+  #rbottom-a {bottom: 0.8%; left: -3.74%;}
+  #rbottom-b {bottom: 35.82%; left: 11.89%;}
+  #rbottom-c {top: 3.18%; right: 3.7%;}
+  #rbottom-d {bottom: 0.4%;right: -4.54%;}
+  #rleft-a {top: 46.59%;left: 5.4%;}
+  #rleft-b {bottom: 30.75%;left: 11.68%;}
+  #rleft-c {bottom: 0.06%;left: 5.6%;}
+  #rleft-d {bottom: 0.06%;left: 24.5%;}
+  #rleft-e {bottom: 54.4%; left: 37.37%;}
+  #rleft-f {bottom: 44.95%; right: 12.5%;}
+  #rleft-g {bottom: 25.85%; left: 24.5%; right: auto;}
+  #rleft-h {bottom: 27.4%; right: 6.34%;}
+
+  #rright-a {bottom: 45%;left: 0%;}
+  #rright-b {top: 34.3%;left: 6.31%;}
+  #rright-c {bottom: 33.85%;left: 43.8%;}
+  #rright-d {bottom: 25.8%;left: 37.4%;right: auto;}
+  #rright-e {top: 45.45%;right: 30.68%;}
+  #rright-f {bottom: 39.7%;right: 5.5%;}
+  #rright-g {bottom: 0.06%;right: 5.5%;}
+  #rright-h {bottom: 0.06%;left: 37.4%;}
+  #rright-i{bottom: 0.06%;right: 36.1%;}
+  #rright-j{bottom: 14.06%;right: 5.5%;}
+  .row .line {width: 0.7%;}
+  @keyframes move {
+    0% {left: 0%;}
+    100% {left: -125.48%;}
+  }
 }
 
 @media only screen and (min-width: 1366px) and (max-width: 1439px) {
@@ -28,9 +101,47 @@
   .birki p {font-size: 16px; line-height: 20px;}
   .block3 p {font-size: 16px; line-height: 20px;}
   .block3 a {font-size: 16px; line-height: 20px;}
+  body .sootnosheniye {padding-bottom: 183%;}
+  body .block {height: 68.2%;}
+  body .block2 {height: 30.16%;}
+  body .block3 {height: 1.64%;}
+  div .center {width:54.17%;}
+  div .left {width: 22.915%;}
+  div .right {width: 22.915%;}
+  div .first {height: 55.1%;}
+  div .second {height: 30.5%;}
+  div .third {height: 14.4%;}
+  .first .meatblock { height: 52.29%; margin-top: 6.3%; margin-left: 17%; }
+  .bottom1 {top: 3%;}
+  .bottom2 {top: 2.58%;}
+  .first .smallround-centertop {height: 3.16%; width: 4%;}
+  .third .smallround-centerbottom {height: 12%;width: 4%;}
+  .left .smallround-left {width: 9.49%; height: 1.74%;}
+  .right .smallround-left {width: 9.49%; height: 1.74%;}
+  .first #rtop-a {top: 39.1%;}
+  .first #rtop-b {bottom: 41.8%;}
+  .first #rtop-c {bottom: 23%;}
+  .first #rtop-f {bottom: 40.7%;}
+  #rright-a {bottom: 40.1%;left: 4.83%;}
+  #rright-b {top: 37.3%;left: 13.91%;}
+  #rright-c {bottom: 34.9%;left: 33.8%;}
+  #rright-d {bottom: 19.25%;right: 28.72%;}
+  #rright-e {top: 49.5%;right: 9.4%;}
+  #rright-f {bottom: 28%;right: 9.2%;}
+  #rright-g {bottom: 0.06%; right: 9.2%}
+
+  #rleft-a {top: 47.75%;left: 8.98%;}
+  #rleft-b {bottom: 14%;left: 8.98%;}
+  #rleft-c {left: 9.5%;}
+  #rleft-d {left: 29%;}
+  #rleft-e {bottom: 43.5%;left: 47.37%;}
+  #rleft-f {bottom: 40.2%;right: 14.8%;}
+  #rleft-g {bottom: 12.34%;right: 23.7%;}
+  #rleft-h {display: none;}
+
 }
 
-@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+@media only screen and (min-width: 1025px) and (max-width: 1365px) {
   .block #title1, #title2 {font-size: 22px; line-height: 28px;top: 1.7%;}
   .row .line {border-radius: 14px;}
   .birki p {font-size: 16px; line-height: 20px;}
@@ -39,14 +150,57 @@
   .birki .body1 {border-radius: 18px;}
   .birki .body2 {border-radius: 16px;}
   .birki .body3 {border-radius: 14px;}
+  body .sootnosheniye {padding-bottom: 187.34%;}
+  body .block {height: 69.47%;}
+  body .block2 {height: 29.28%;}
+  body .block3 {height: 1.25%;}
+  div .center {width:56.74%;}
+  div .left {width: 21.63%;}
+  div .right {width: 21.63%;}
+  .left .smallround-left {width: 10.47%; height: 1.74%;}
+  .right .smallround-left {width: 10.47%; height: 1.74%;}
   .container1 .row { width: 245%;}
   .block2 .container1 { height: 27%;}
+  #rleft-a {top: 45.2%;left: 10.5%;}
+  #rleft-b, #rleft-h {display: none;}
+  #rleft-c {left: 10.5%;}
+  #rleft-d {bottom: 8.5%;right: -6.4%;left: auto;;}
+  #rleft-e {bottom: 35.4%;left: 10.5%;}
+  #rleft-f {bottom: 39.8%;right: 15.8%;}
+  #rleft-g {bottom: 17.75%;right: 4%;}
+
+  #rright-a {bottom: 40.1%;left: 5.2%;}
+  #rright-b {top: 37.3%;left: 16.3%;}
+  #rright-c {bottom: 34.85%;left: 26.2%;}
+  #rright-d {bottom: 19.25%;right:32%;}
+  #rright-e {top: 49.5%;right: 10.8%;}
+  #rright-f {bottom: 28%;right: 10.8%;}
+  #rright-g {bottom: 0.06%; right: 10.8%}
+  .first .top1 {z-index: 100;}
+  .first .top2 {z-index: 101;}
+  .first .top3 {z-index: 102;}
   @keyframes move {
     0% {left: 0px;}
     100% {left: -136.7%;}
   }
-}
 
+  @keyframes birkimove {
+    0% {left: 0px;}
+    100% {left: -255.1%;}
+  }
+}
+@media only screen and (min-width: 1280px) and (max-width: 1320px) {
+
+  @keyframes move {
+    0% {left: 0px;}
+    100% {left: -136.6%;}
+  }
+
+  @keyframes birkimove {
+    0% {left: 0px;}
+    100% {left:  -255.05%;}
+  }
+}
 @media only screen and (min-width: 1101px) and (max-width: 1279px) {
   .block #title1, #title2 {font-size: 21px; line-height: 27px;top: 1.7%; width: 23%;}
   .birki p {font-size: 15px; line-height: 20px;}
@@ -54,12 +208,33 @@
   .block3 a {font-size: 14px; line-height: 18px;}
 }
 @media only screen and (min-width: 1025px) and (max-width: 1279px) {
-  .container1 .row {width: 242%;}
-  .block2 .container1 { height: 27%;}
+
   .row #newlife {width: 8.78%;}
   .row #alternative {width: 21.75%;}
   .row #view {width: 9.955%;}
   .row #dream {width: 8.476%;}
+
+}
+@media only screen and (min-width: 1101px) and (max-width: 1279px) {
+  .block2 .container1 { height: 27%;}
+  .container1 .row {width: 242%; animation: move 8.4s linear infinite;}
+  @keyframes move {
+    0% {left: 0px;}
+    100% {left: -134.7%;}
+  }
+
+  @keyframes birkimove {
+    0% {left: 0px;}
+    100% {left:  -255.45%;}
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1100px) {
+  .block #title1, #title2 {font-size: 21px; line-height: 27px;top: 1.7%; width: 25%;}
+  .birki p {font-size: 14px; line-height: 18px;}
+  .block3 p {font-size: 13px; line-height: 18px;}
+  .block3 a {font-size: 13px; line-height: 18px;}
+  .container1 .row {width: 242%;}
+  .block2 .container1 { height: 27%;}
   .container1 .row {animation: move 8.4s linear infinite;}
   @keyframes move {
     0% {left: 0px;}
@@ -68,14 +243,8 @@
 
   @keyframes birkimove {
     0% {left: 0px;}
-    100% {left:  -255.35%;}
+    100% {left:  -256.1%;}
   }
-}
-@media only screen and (min-width: 1025px) and (max-width: 1100px) {
-  .block #title1, #title2 {font-size: 21px; line-height: 27px;top: 1.7%; width: 25%;}
-  .birki p {font-size: 14px; line-height: 18px;}
-  .block3 p {font-size: 13px; line-height: 18px;}
-  .block3 a {font-size: 13px; line-height: 18px;}
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -147,14 +316,32 @@
   .block #title1, #title2 {font-size: 18px; line-height: 24px;top: 1.7%; width: 26%;}
 }
 
-@media only screen and (min-width: 769px) and (max-width: 890px) {
+@media only screen and (min-width: 769px) and (max-width: 920px) {
   body .birki p {font-size: 13px; line-height: 16px;}
+}
+
+@media only screen and (min-width: 831px) and (max-width: 920px) {
   @keyframes birkimove {
     0% {left: 0%;}
-    100% {left: -312.82%;}
+    100% {left: -312.7%;}
+  }
+  @keyframes move {
+    0% {left: 0px;}
+    100% {left: -165.1%;}
   }
 }
 
+@media only screen and (min-width: 769px) and (max-width: 830px) {
+
+  @keyframes birkimove {
+    0% {left: 0%;}
+    100% {left: -313.4%;}
+  }
+  @keyframes move {
+    0% {left: 0px;}
+    100% {left: -165.6%;}
+  }
+}
 @media only screen and (min-width: 769px) and (max-width: 870px) {
   body .block3 a { width: 15.8%;}
 
@@ -232,7 +419,9 @@
   .block #title1, #title2 {font-size: 12px; line-height: 16px;top: 1.7%; width: 25%;}
   body .block3 p {font-size: 14px; line-height: 18px; margin-bottom: 4%;}
   body .block3 a {font-size: 14px; line-height: 18px; margin-bottom: 4%; height: 110%; width: 19%;}
+}
 
+@media only screen and (min-width: 591px) and (max-width: 679px) {
   @keyframes move {
     0% {left: 0px;}
     100% {left: -208.5%;}
@@ -242,7 +431,6 @@
     100% {left:  -417.3%;}
   }
 }
-
 @media only screen and (min-width: 531px) and (max-width: 560px) {
   body .block3 a { width: 22%;}
 }
@@ -258,13 +446,14 @@
 @media only screen and (min-width: 501px) and (max-width: 599px) {
   .birki p {font-size: 11px !important; line-height: 14px !important;}
 }
-@media only screen and (min-width: 501px) and (max-width: 530px) {
+@media only screen and (min-width: 501px) and (max-width: 590px) {
   .birki .body1 {border-radius: 14px;}
   .birki .body2 {border-radius: 12px;}
   .birki .body3 {border-radius: 10px;}
+
   @keyframes move {
     0% {left: 0px;}
-    100% {left: -209.2%;}
+    100% {left: -209.6%;}
   }
   @keyframes birkimove {
     0% {left: 0px;}
