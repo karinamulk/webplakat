@@ -13,12 +13,12 @@ body::before{
   left: 0;
   top: 0;
   right: 0;
-  background: url( '../images/ipadp.jpg');
+  background: url( '../images/1440.jpg');
   width: 100%;
   height: 100%;
   background-size: 100% auto ;
   display: block;
-  opacity: .3;
+  opacity: .5;
 }
 html{
   position: relative;
@@ -37,14 +37,14 @@ p {
 .sootnosheniye {
   position: relative;
   padding-bottom: 176.181%;
-  background: red;
+  /* background: red; */
 
 }
 .content {
   position: absolute;
   top: 0; bottom: 0; left: 0; right: 0;
   padding: 0;
-  background: yellow;
+  /* background: yellow; */
 }
 .block {
   display: flex;
@@ -58,48 +58,48 @@ p {
   width: 24%;
   height: 100%;
   z-index: 100;
-  background: blue;
+  /* background: blue; */
 }
 
 .center {
   position: relative;
   width: 52%;
   height: 100%;
-  background: red;
+  /* background: red; */
 }
 .right {
   position: relative;
   width: 24%;
   height: 100%;
-  background: green;
+  /* background: green; */
 }
 .first {
   position: relative;
   align-items: top;
   width: 100%;
   height: 54.8%;
-  background: purple;
+  /* background: purple; */
   display: block;
 }
 .second {
   position: relative;
   width: 100%;
   height: 30.5%;
-  background: yellow;
+  /* background: yellow; */
   display: block;
 }
 .third {
   position: relative;
   width: 100%;
   height: 14.7%;
-  background: black;
+  /* background: black; */
   display: block;
 }
 .block2 {
   /* opacity: 50%; */
   width: 100%;
   height:  31.13%;
-  background: black;
+  /* background: black; */
 }
 .block3 {
   width: 100%;
@@ -107,13 +107,14 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
+  padding: 0 3%;
 }
 .block3 p {
   font-size: 18px;
   line-height: 23px;
   color: #A4DDD4;
   margin-bottom: 2%;
-  margin-left: 2.08%;
   box-sizing: border-box;
 }
 .block3 a  {
@@ -124,7 +125,7 @@ p {
   line-height: 23px;
   color: #A4DDD4;
   margin-bottom: 2%;
-  margin-right: 2.08%;
+
   text-decoration: none;
 }
 .block img {
@@ -334,22 +335,22 @@ p {
   bottom: 0.06%;
   right: 8.68%;
 }
-.block p {
+
+#title1, #title2 {
+  width: 100%;
   font-size: 24px;
   line-height: 30.6px;
   position: absolute;
-  top: 2.22%;
+  top: 1.52%;
   color: #A4DDD4;
 }
 #title1 {
-  left: 17.36%;
-  /* width: 69.45%;
-  height: 8.25%; */
+  left: 4.3%;
+  width: 20%;
 }
 #title2 {
-  right: 17.36%;
-  /* width: 76.68%;
-  height: 3.8%; */
+  width: 22.5%;
+  right: 0;
 }
 .al-top1 {left: 1.7%; bottom: 27.5%; width: 34.3%;}
 .al-top2 {left: 10.4%; bottom: 1.2%; width: 33.3%;}
@@ -358,5 +359,14 @@ p {
 .al-top5 {right: 2.3%; bottom: 1.2%; width: 33.95%;}
 .al-bottom1 {width: 7.23%; left: 22.7%; top: 4%;}
 .al-bottom2 {width: 71.82%; right: -5.7%; top: 4%;}
-.al-left {width: 163.41%; bottom: 1.7%; left: 15%;}
+.al-left  {width: 163.41%; bottom: 1.7%; left: 15%;}
 .al-right { width: 117.3%; bottom: 1.9%; right: 15%;}
+.ap-left  {width: 166.41%; bottom: 1.9%; left: 11%;}
+.ap-top1 {left: 1%; bottom: 1%; width: 34.9%;}
+.ap-top2 {left: 10%; bottom: 1.2%; width: 33.9%;}
+.ap-top3 {left: 33.4%; bottom: 1.2%; width: 18.2%;}
+.ap-top4 {right: 30%; bottom: 1%; width: 14.2%;}
+.ap-top5 {right: 1.6%; bottom: 0.9%; width: 34.5%;}
+.ap-bottom1 {width: 7.43%; left: 22.3%; top: 2.5%;}
+.ap-bottom2 {width: 73.5%; right: -6.9%; top: 2.5%;}
+.ap-right { width: 120.9%; bottom: 1.9%; right: 10%;}
