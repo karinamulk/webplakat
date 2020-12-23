@@ -246,10 +246,13 @@ p {
 #rbottom-c {
   top: 3.18%;
   right: 1.9%;
+  z-index: 100;
 }
 #rbottom-d {
   bottom: 0.4%;
   right: -6.54%;
+  z-index: 101;
+
 }
 .left1 {
   left: 8.68%;
