@@ -44,6 +44,6 @@
   background: #F28EC0;
 }
 @keyframes move {
-  0% {left: 0px;}
+  0% {left: 0%;}
   100% {left: -127.78%;}
 }
