@@ -13,7 +13,7 @@ body::before{
   left: 0;
   top: 0;
   right: 0;
-  /* background: url( '../images/1440.jpg'); */
+  background: url( '../images/1280.jpg');
   width: 100%;
   height: 100%;
   background-size: 100% auto ;
@@ -32,7 +32,7 @@ p {
   position: relative;
   width: 100%;
   background: black;
-  /* opacity: 50%; */
+  opacity: 70%;
 }
 .sootnosheniye {
   position: relative;
@@ -58,48 +58,48 @@ p {
   width: 24%;
   height: 100%;
   z-index: 100;
-  /* background: blue; */
+  background: blue;
 }
 
 .center {
   position: relative;
   width: 52%;
   height: 100%;
-  /* background: red; */
+  background: red;
 }
 .right {
   position: relative;
   width: 24%;
   height: 100%;
-  /* background: green; */
+  background: green;
 }
 .first {
   position: relative;
   align-items: top;
   width: 100%;
   height: 54.8%;
-  /* background: purple; */
+  background: purple;
   display: block;
 }
 .second {
   position: relative;
   width: 100%;
   height: 30.5%;
-  /* background: yellow; */
+  background: yellow;
   display: block;
 }
 .third {
   position: relative;
   width: 100%;
   height: 14.7%;
-  /* background: black; */
+  background: black;
   display: block;
 }
 .block2 {
   /* opacity: 50%; */
   width: 100%;
   height:  31.13%;
-  /* background: black; */
+  background: black;
 }
 .block3 {
   width: 100%;
@@ -373,3 +373,17 @@ p {
 .ap-bottom1 {width: 7.43%; left: 22.3%; top: 2.5%;}
 .ap-bottom2 {width: 73.5%; right: -6.9%; top: 2.5%;}
 .ap-right { width: 120.9%; bottom: 1.9%; right: 10%;}
+.left1-1680 { width: 45.77%; bottom: 1.6%; left: 5%;}
+.left2-1680 { width: 68.88%; bottom: 4.88%; right: -6.145%;}
+.right1-1680 { width: 37.57%; bottom: 1.6%; right: 5%;}
+.right2-1680 { width: 81.96%; bottom: 1.6%; left: -13%;}
+.top1-1680 {bottom: 0.75%; left: -12%; width: 46.5%;}
+.top2-1680 {bottom: 0.75%; left: 8.55%; width: 33.25%;}
+.top3-1680 {bottom: 0.75%; left: 32%; width: 18.16%;}
+.top4-1680 {bottom: 0.75%; right: 12.35%; width: 47.45%;}
+.top5-1680 {bottom: 0.75%;right: -12.29%; width: 49.95%;}
+.left1-1366 { width: 90.8%; bottom: 1.9%; left: 9%;}
+.left2-1366 { width: 85.26%; bottom: 1.9%; right: -14%;}
+.right-1366 { width: 104.55%; bottom: 1.8%;left: -14%; }
+.left-1280 { width: 139.1%; bottom: 1.8%; left: 10%;}
+.right-1280 { width: 104.62%; bottom: 1.8%; right: 11%;}
