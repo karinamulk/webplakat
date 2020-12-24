@@ -35,6 +35,10 @@
 @media all and (max-width: 1024px) {
 .left .left-1280, .right .right-1280 {display: none;}
 }
+@media all and (min-width: 501px) {
+.first .iphone-top1, .first .iphone-top2, .first .iphone-top3, .first .iphone-top4, .first .iphone-top5, .third .iphone-bottom1, .third .iphone-bottom2, .first #rtop-g, .first #rtop-h,.first #rtop-i, .first #rtop-j, .first #rtop-k, .first #rtop-l, .first #rtop-m {display: none;}
+.first #rtop-n, .third #rbottom-e, .third #rbottom-f, .third #rbottom-g  {display: none;}
+}
 @media only screen and (min-width: 1680px)  {
   .block #title1, #title2 {font-size: 28px; line-height: 36px;top: 1.7%;}
   .row.line {border-radius: 17px;}
@@ -461,5 +465,68 @@
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 500px) {
+  body .sootnosheniye {padding-bottom: 440.94%;}
+  body .block {height: 69.77%;}
+  body .block2 {height: 30.23%;}
+  body .block3 {height: 0%;}
+  div .center {width: 100%;}
+  div .left {width: 0%;}
+  div .right {width: 0%;}
+  div .first {height: 58.914%;}
+  div .second {height: 22.04%;}
+  div .third {height: 19.046%;}
+  .block #title1, #title2 {font-size: 8px; line-height: 10px;top: 1.3%; width: 31.5%;}
+  body .birki p {font-size: 11px; line-height: 14px;}
+  body .block3 p {font-size: 11px; line-height: 14px; margin-bottom: 8%;}
+  body .block3 a {font-size: 11px; line-height: 14px; margin-bottom: 13%; height: 110%; width: 30%;}
 
+  .first .meatblock {height: 34.87%; width: 63.2%; margin-top: 6.2%; margin-left: 18.5%;}
+  .first .smallround-centertop {height: 2.117%; width: 3.838%; border-radius: 60%;}
+  .third .smallround-centerbottom {height: 6.55%;width: 3.838%}
+  .block2 .container1 {height: 17%;}
+  .block2 .birki {height: 83%;}
+  .container1 .row {width: 400%; }
+  @keyframes move {
+    0% {left: 0%;}
+    100% {left: -212%;}
+  }
+  .row img {margin: 0.233% 0% 0.233% 0;}
+  .row .line {margin-right:0%;width: 0.81%;}
+  .row #newlife {width: 8.64%;}
+  .row #alternative {width: 20.8%;}
+  .row #dream {width: 8%;}
+  .birki .row2 {width: 983%; top: 0.85%;}
+  @keyframes birkimove {
+    0% {left: 0px;}
+    100% {left: -685.05%;}
+  }
+  .birki .body1 {border-radius: 11px;}
+  .birki .body2 {border-radius: 8px;}
+  .birki .body3 {border-radius: 7px;}
+  .row2 #b1, #b1-2 {margin-left: 3.8%; }
+  .row2 #b2, #b2-2 {margin-left: -5.8%; }
+  .second .logo {width: 92.03%; left: 4.531%;}
+  #rtop-a {left: 4%; top: 26.3%;}
+  #rtop-b {left: 27%; bottom: 40.2%;}
+  #rtop-c {left: 4%; bottom: 31.9%;}
+  #rtop-d {left: 49.3%; bottom: 29.7%;}
+  #rtop-e {right: 30.6%; bottom: 19.4%;}
+  #rtop-f {right: 3.8%; bottom: 27.7%;}
+  #rtop-g {left: 4%; bottom: 5.1%;}
+  #rtop-h {left: 12%; bottom: 11.25%;}
+  #rtop-i {left:30.7%; top:36.9%;}
+  #rtop-j {left:41.7%; bottom:7%;}
+  #rtop-k {left: 55.3%; bottom: 44.2%;}
+  #rtop-l {right: 22.8%; bottom: 11.2%;}
+  #rtop-m {right: 15.2%; top: 38%;}
+  #rtop-n {right: 3.8%; top: 44.5%;}
+  #rbottom-a {left: 4.8%; bottom: 1%;}
+  #rbottom-b {left: 23.9%; top: 29%;}
+  #rbottom-c {left: 43.6%; top:47.5%;}
+  #rbottom-d {right: auto; left: 43.6%; bottom: 1.35%;}
+  #rbottom-e {top: 9.5%; right: 11.2%;}
+  #rbottom-f {top: 29%; right: 23.2%;}
+  #rbottom-g {bottom: 14%; right: 30%;}
+  .first .iphone-top2 {z-index: 100;}
+  .first .iphone-top4 {z-index: 101;}
 }
