@@ -132,6 +132,7 @@ p {
   position: absolute;
   display: inline-block;
 }
+.linkfoto {width: 10%; top: 0%; opacity: 0%;}
 .smallround-centertop {
   width: 4%;
   height: 3.2%;
