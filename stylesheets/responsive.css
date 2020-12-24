@@ -535,7 +535,7 @@
   #rbottom-g {bottom: 14%; right: 30%;}
   .first .iphone-top2 {z-index: 100;}
   .first .iphone-top4 {z-index: 101;}
-  .birki .thread {width: 4px; left: calc(50% - 2px);}
+  .birki .thread {width: 6px; left: calc(50% - 3px);}
 }
 
 @media only screen and (min-width: 376px) and (max-width: 500px) {
