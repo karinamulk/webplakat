@@ -138,7 +138,7 @@ p {
   border-radius: 50%;
   background: #F28EC0;
   position: absolute;
-  transition: all .3s;
+  transition: all .2s;
 }
 .smallround-centerbottom {
   width: 4%;
@@ -146,7 +146,7 @@ p {
   border-radius: 50%;
   background: #F28EC0;
   position: absolute;
-  transition: all .3s;
+  transition: all .2s;
 }
 .smallround-left {
   width: 8.68%;
@@ -154,19 +154,19 @@ p {
   border-radius: 50%;
   background: #F28EC0;
   position: absolute;
-  transition: all .3s;
+  transition: all .2s;
 }
 .smallround-centertop:hover {
   background: #F8E436;
-  transition: all.1s;
+  transition: all.05s;
 }
 .smallround-left:hover {
   background: #F8E436;
-  transition: all.1s;
+  transition: all.05s;
 }
 .smallround-centerbottom:hover {
   background: #F8E436;
-  transition: all.1s;
+  transition: all.05s;
 }
 .top1 {
   bottom: 0.75%;
