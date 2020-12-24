@@ -12,12 +12,13 @@
   display: block;
   position: absolute;
   box-sizing: border-box;
+  /* background: blue; */
   animation: move 8s linear infinite;
 }
  .row img {
   position: relative;
   display: inline-block;
-  /* height: 92%; */
+  height: 92%;
   margin: 0.243% 0.243% 0.243% 0;
 
 }
