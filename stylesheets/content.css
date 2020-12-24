@@ -13,7 +13,7 @@ body::before{
   left: 0;
   top: 0;
   right: 0;
-  background: url( '../images/1280.jpg');
+  background: url( '../images/iphone.jpg');
   width: 100%;
   height: 100%;
   background-size: 100% auto ;
@@ -32,7 +32,7 @@ p {
   position: relative;
   width: 100%;
   background: black;
-  opacity: 70%;
+  /* opacity: 70%; */
 }
 .sootnosheniye {
   position: relative;
@@ -58,34 +58,34 @@ p {
   width: 24%;
   height: 100%;
   z-index: 100;
-  background: blue;
+  /* background: blue; */
 }
 
 .center {
   position: relative;
   width: 52%;
   height: 100%;
-  background: red;
+  /* background: red; */
 }
 .right {
   position: relative;
   width: 24%;
   height: 100%;
-  background: green;
+  /* background: green; */
 }
 .first {
   position: relative;
   align-items: top;
   width: 100%;
   height: 54.8%;
-  background: purple;
+  /* background: purple; */
   display: block;
 }
 .second {
   position: relative;
   width: 100%;
   height: 30.5%;
-  background: yellow;
+  /* background: yellow; */
   display: block;
 }
 .third {
@@ -387,3 +387,10 @@ p {
 .right-1366 { width: 104.55%; bottom: 1.8%;left: -14%; }
 .left-1280 { width: 139.1%; bottom: 1.8%; left: 10%;}
 .right-1280 { width: 104.62%; bottom: 1.8%; right: 11%;}
+.iphone-top1 {left: 3.8%; bottom: 0.8%; width: 33%;}
+.iphone-top2 {left: 12%; bottom: 0.8%; width: 32.48%;}
+.iphone-top3 {left: 20%; bottom: 0.8%; width: 46.43%;}
+.iphone-top4 {right: 11.5%; bottom: 0.8%; width: 37.91%;}
+.iphone-top5 {right: 3.8%; bottom: 0.8%; width: 33%;}
+.iphone-bottom1 {left: 4.5%; top: -0.6%; width: 35.36%;}
+.iphone-bottom2 {right: 4.2%; top: 0%; width: 52.27%;}
