@@ -142,7 +142,8 @@
   #rleft-f {bottom: 40.2%;right: 14.8%;}
   #rleft-g {bottom: 12.34%;right: 23.7%;}
   #rleft-h {display: none;}
-
+  .birki .row2 {animation: birkimove 17.9s linear infinite;}
+  .container1 .row {animation: move 9s linear infinite;}
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1365px) {
@@ -192,6 +193,8 @@
     0% {left: 0px;}
     100% {left: -255.1%;}
   }
+  .birki .row2 {animation: birkimove 20.2s linear infinite;}
+  .container1 .row {animation: move 10.9s linear infinite;}
 }
 @media only screen and (min-width: 1280px) and (max-width: 1320px) {
 
@@ -204,6 +207,8 @@
     0% {left: 0px;}
     100% {left:  -255.05%;}
   }
+  .birki .row2 {animation: birkimove 19.2s linear infinite;}
+  .container1 .row {animation: move 10.3s linear infinite;}
 }
 @media only screen and (min-width: 1101px) and (max-width: 1279px) {
   .block #title1, #title2 {font-size: 21px; line-height: 27px;top: 1.7%; width: 23%;}
@@ -221,7 +226,8 @@
 }
 @media only screen and (min-width: 1101px) and (max-width: 1279px) {
   .block2 .container1 { height: 27%;}
-  .container1 .row {width: 242%; animation: move 8.4s linear infinite;}
+  .container1 .row {width: 242%; animation: move 9s linear infinite;}
+  .birki .row2 {animation: birkimove 17s linear infinite;}
   @keyframes move {
     0% {left: 0px;}
     100% {left: -134.7%;}
@@ -239,7 +245,7 @@
   .block3 a {font-size: 13px; line-height: 18px;}
   .container1 .row {width: 242%;}
   .block2 .container1 { height: 27%;}
-  .container1 .row {animation: move 8.4s linear infinite;}
+  .container1 .row {animation: move 10.9s linear infinite;}
   @keyframes move {
     0% {left: 0px;}
     100% {left: -135.1%;}
@@ -269,12 +275,12 @@
   .birki .body1 {border-radius: 18px;}
   .birki .body2 {border-radius: 16px;}
   .birki .body3 {border-radius: 14px;}
-  .container1 .row { width: 295%; animation: move 8.4s linear infinite; }
+  .container1 .row { width: 295%; animation: move 9.4s linear infinite; }
   @keyframes move {
     0% {left: 0px;}
     100% {left: -164.7%;}
   }
-  .birki .row2 { width: 449%; animation: birkimove 16s linear infinite;}
+  .birki .row2 { width: 449%; animation: birkimove 17.8s linear infinite;}
   @keyframes birkimove {
     0% {left: 0%;}
     100% {left: -312%;}
@@ -378,12 +384,12 @@
   .third .smallround-centerbottom {height: 12.79%;}
   .left .smallround-left {width: 20%; height: 2.03%;}
   .right .smallround-left {width: 20%; height: 2.03%;}
-  .container1 .row {width: 379%; animation: move 7.5s linear infinite; }
+  .container1 .row {width: 379%; animation: move 9.6s linear infinite; }
   @keyframes move {
     0% {left: 0px;}
     100% {left: -207.8%;}
   }
-  .birki .row2 { height: 97%; width: 598%; animation: birkimove 15s linear infinite;}
+  .birki .row2 { height: 97%; width: 598%; animation: birkimove 19s linear infinite;}
   @keyframes birkimove {
     0% {left: 0px;}
     100% {left:  -416.1%;}
@@ -465,10 +471,10 @@
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 500px) {
-  body .sootnosheniye {padding-bottom: 440.94%;}
-  body .block {height: 69.77%;}
-  body .block2 {height: 30.23%;}
-  body .block3 {height: 0%;}
+  body .sootnosheniye {padding-bottom: 447.19%;}
+  body .block {height: 68.795%;}
+  body .block2 {height: 29.81%;}
+  body .block3 {height: 1.395%;}
   div .center {width: 100%;}
   div .left {width: 0%;}
   div .right {width: 0%;}
@@ -478,31 +484,31 @@
   .block #title1, #title2 {font-size: 8px; line-height: 10px;top: 1.3%; width: 31.5%;}
   body .birki p {font-size: 11px; line-height: 14px;}
   body .block3 p {font-size: 11px; line-height: 14px; margin-bottom: 8%;}
-  body .block3 a {font-size: 11px; line-height: 14px; margin-bottom: 13%; height: 110%; width: 30%;}
+  body .block3 a {font-size: 11px; line-height: 14px; margin-bottom: 6%; height: 100%; width: 27%;}
 
   .first .meatblock {height: 34.87%; width: 63.2%; margin-top: 6.2%; margin-left: 18.5%;}
   .first .smallround-centertop {height: 2.117%; width: 3.838%; border-radius: 60%;}
   .third .smallround-centerbottom {height: 6.55%;width: 3.838%}
   .block2 .container1 {height: 17%;}
   .block2 .birki {height: 83%;}
-  .container1 .row {width: 400%; }
+  .container1 .row {width: 400%;animation: move 5.7s linear infinite;}
   @keyframes move {
     0% {left: 0%;}
-    100% {left: -212%;}
+    100% {left: -212.7%;}
   }
   .row img {margin: 0.233% 0% 0.233% 0;}
   .row .line {margin-right:0%;width: 0.81%;}
   .row #newlife {width: 8.64%;}
   .row #alternative {width: 20.8%;}
   .row #dream {width: 8%;}
-  .birki .row2 {width: 983%; top: 0.85%;}
+  .birki .row2 {width: 969%; animation: birkimove 18s linear infinite;}
   @keyframes birkimove {
     0% {left: 0px;}
-    100% {left: -685.05%;}
+    100% {left: -676.65%;}
   }
-  .birki .body1 {border-radius: 11px;}
-  .birki .body2 {border-radius: 8px;}
-  .birki .body3 {border-radius: 7px;}
+  .birki .body1 {border-radius: 12px;}
+  .birki .body2 {border-radius: 9px;}
+  .birki .body3 {border-radius: 8px;}
   .row2 #b1, #b1-2 {margin-left: 3.8%; }
   .row2 #b2, #b2-2 {margin-left: -5.8%; }
   .second .logo {width: 92.03%; left: 4.531%;}
@@ -529,4 +535,89 @@
   #rbottom-g {bottom: 14%; right: 30%;}
   .first .iphone-top2 {z-index: 100;}
   .first .iphone-top4 {z-index: 101;}
+  .birki .thread {width: 4px; left: calc(50% - 2px);}
+}
+
+@media only screen and (min-width: 376px) and (max-width: 500px) {
+  .block2 .container1 {height: 20%;}
+  .block2 .birki {height: 80%;}
+  .birki .row2 {width: 934%;}
+  .container1 .row {width: 440%; animation: move 6.7s linear infinite;}
+  @keyframes move {
+    0% {left: 0%;}
+    100% {left: -237%;}
+  }
+  @keyframes birkimove {
+    0% {left: 0px;}
+    100% {left: -646.9%;}
+  }
+  .row #newlife {width: 8.82%;}
+  .row #alternative {width: 21.85%;}
+  .row #view {width: 10%;}
+  .row #dream {width: 8.515%;}
+  .block #title1, #title2 {font-size: 12px; line-height: 15px;top: 1.2%; width: 30.5%;}
+  body .birki p {font-size: 15px; line-height: 18px;}
+  body .block3 p {font-size: 12px; line-height: 15px; margin-bottom: 4%;}
+  body .block3 a {font-size: 12px; line-height: 15px; margin-bottom: 2%; height: 100%; width: 20%;}
+  .birki .body1 {border-radius: 17px;}
+  .birki .body2 {border-radius: 15px;}
+  .birki .body3 {border-radius: 12px;}
+}
+
+@media only screen and (min-width: 426px) and (max-width: 475px) {
+  .block #title1, #title2 {font-size: 12px; line-height: 15px;top: 1.3%; width: 32%;}
+  body .birki p {font-size: 15px; line-height: 18px;}
+  body .block3 p {font-size: 12px; line-height: 12px; margin-bottom: 4%;}
+  body .block3 a {font-size: 12px; line-height: 12px; margin-bottom: 2%; height: 100%; width: 21%;}
+  @keyframes move {
+    0% {left: 0%;}
+    100% {left: -238%;}
+  }
+  @keyframes birkimove {
+    0% {left: 0px;}
+    100% {left: -648.4%;}
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+  .block #title1, #title2 {font-size: 11px; line-height: 14px;top: 1.1%; width: 34%;}
+  body .birki p {font-size: 13px; line-height: 17px;}
+  body .block3 p {font-size: 11px; line-height: 14px; margin-bottom: 4%;}
+  body .block3 a {font-size: 11px; line-height: 14px; margin-bottom: 2%; height: 100%; width: 22%;}
+  @keyframes move {
+    0% {left: 0%;}
+    100% {left: -238.7%;}
+  }
+  @keyframes birkimove {
+    0% {left: 0px;}
+    100% {left: -649.55%;}
+  }
+}
+@media only screen and (min-width: 351px) and (max-width: 375px) {
+  .block #title1, #title2 {font-size: 10px; line-height: 13px;top: 1.1%; width: 34%;}
+  body .birki p {font-size: 12px; line-height: 16px;}
+  body .block3 p {font-size: 10px; line-height: 13px; margin-bottom: 4%;}
+  body .block3 a {font-size: 10px; line-height: 13px; margin-bottom: 2%; height: 100%; width: 22%;}
+  @keyframes move {
+    0% {left: 0%;}
+    100% {left: -211.6%;}
+  }
+  @keyframes birkimove {
+    0% {left: 0px;}
+    100% {left: -674.85%;}
+  }
+}
+@media only screen and (min-width: 335px) and (max-width: 350px) {
+  .block #title1, #title2 {font-size: 10px; line-height: 13px;top: 1.1%; width: 36%;}
+  body .birki p {font-size: 11px; line-height: 14px;}
+  body .block3 p {font-size: 10px; line-height: 13px; margin-bottom: 4%;}
+  body .block3 a {font-size: 10px; line-height: 13px; margin-bottom: 2%; height: 100%; width: 23%;}
+
+  @keyframes move {
+    0% {left: 0%;}
+    100% {left: -212.1%;}
+  }
+  @keyframes birkimove {
+    0% {left: 0px;}
+    100% {left: -675.7%;}
+  }
 }
